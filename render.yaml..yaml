@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: dostyk-bakery-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        value: 7817614647:AAHcitaNuYfw9PwAVcO6A3oFHJzfu8hEgeM
+      - key: ADMIN_ID
+        value: 6529188202
