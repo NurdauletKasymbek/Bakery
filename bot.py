@@ -163,9 +163,11 @@ HEAD
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
 
+
+
+
     if __name__ == '__main__':
     bot.remove_webhook()
-    bot.set_webhook(url=f"https://https://bakery-et4d.onrender.com
-/{7817614647:AAHcitaNuYfw9PwAVcO6A3oFHJzfu8hEgeM}")
+        bot.set_webhook(url=f"https://bakery-et4d.onrender.com/{BOT_TOKEN}")
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
